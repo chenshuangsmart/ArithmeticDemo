@@ -8,7 +8,6 @@
 
 #import "Stack.h"
 
-// StackForImplement.m
 @interface Stack ()
 // 存储栈数据
 @property (nonatomic, strong) NSMutableArray *stackArray;
@@ -17,9 +16,13 @@
 
 @implementation Stack
 
+#pragma mark - push
+
 - (void)push:(id)obj {
     [self.stackArray addObject:obj];
 }
+
+#pragma mark - get
 
 - (id)popObj {
     if ([self isEmpty]) {
@@ -31,6 +34,14 @@
     }
 }
 
+-(id)topObj {
+    if ([self isEmpty]) {
+        return nil;
+    } else {
+        return self.stackArray.lastObject;
+    }
+}
+
 - (BOOL)isEmpty {
     return !self.stackArray.count;
 }
@@ -38,6 +49,8 @@
 - (NSInteger)stackLength {
     return self.stackArray.count;
 }
+
+#pragma mark - 遍历
 
 // 从栈底开始遍历
 -(void)enumerateObjectsFromBottom:(StackBlock)block {
@@ -65,17 +78,13 @@
     }
 }
 
+#pragma mark - remove
+
 -(void)removeAllObjects {
     [self.stackArray removeAllObjects];
 }
 
--(id)topObj {
-    if ([self isEmpty]) {
-        return nil;
-    } else {
-        return self.stackArray.lastObject;
-    }
-}
+#pragma mark - lazy
 
 - (NSMutableArray *)stackArray {
     if (!_stackArray) {

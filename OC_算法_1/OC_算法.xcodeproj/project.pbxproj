@@ -13,6 +13,7 @@
 		402950C62181459E00E492BF /* DeleteNode_18.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950C52181459E00E492BF /* DeleteNode_18.m */; };
 		402950EB2183F72700E492BF /* RegularExpressionMath_19.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950EA2183F72700E492BF /* RegularExpressionMath_19.m */; };
 		402950EE2183FA7400E492BF /* IsNumeric_20.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950ED2183FA7400E492BF /* IsNumeric_20.m */; };
+		402950F22184038600E492BF /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950F12184038600E492BF /* NSArray+Extension.m */; };
 		402E4A1B216723CB001C6863 /* GetNextTreeLinkNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 402E4A1A216723CB001C6863 /* GetNextTreeLinkNode.m */; };
 		40370404216ED85500C4D384 /* MinNumberInRotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 40370403216ED85500C4D384 /* MinNumberInRotateArray.m */; };
 		4037F635217D579000DEE0C5 /* MovingCount_13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4037F634217D579000DEE0C5 /* MovingCount_13.m */; };
@@ -50,6 +51,9 @@
 		402950EA2183F72700E492BF /* RegularExpressionMath_19.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionMath_19.m; sourceTree = "<group>"; };
 		402950EC2183FA7400E492BF /* IsNumeric_20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsNumeric_20.h; sourceTree = "<group>"; };
 		402950ED2183FA7400E492BF /* IsNumeric_20.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsNumeric_20.m; sourceTree = "<group>"; };
+		402950F02184038600E492BF /* NSArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
+		402950F12184038600E492BF /* NSArray+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
+		402950F321840E7100E492BF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		402E4A19216723CB001C6863 /* GetNextTreeLinkNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetNextTreeLinkNode.h; sourceTree = "<group>"; };
 		402E4A1A216723CB001C6863 /* GetNextTreeLinkNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetNextTreeLinkNode.m; sourceTree = "<group>"; };
 		40370402216ED85500C4D384 /* MinNumberInRotateArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinNumberInRotateArray.h; sourceTree = "<group>"; };
@@ -105,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		402950EF2184037300E492BF /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				402950F02184038600E492BF /* NSArray+Extension.h */,
+				402950F12184038600E492BF /* NSArray+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
 		40636FBD2159F33800DE29C4 /* Base */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +154,7 @@
 		4063D64F2136253100A5E3D4 /* OC_算法 */ = {
 			isa = PBXGroup;
 			children = (
+				402950EF2184037300E492BF /* Category */,
 				40636FBD2159F33800DE29C4 /* Base */,
 				4064B0DF214F66A900F3D34B /* 算法 */,
 				4063D6502136253100A5E3D4 /* AppDelegate.h */,
@@ -152,6 +166,7 @@
 				4063D65B2136253200A5E3D4 /* LaunchScreen.storyboard */,
 				4063D65E2136253200A5E3D4 /* Info.plist */,
 				4063D65F2136253200A5E3D4 /* main.m */,
+				402950F321840E7100E492BF /* PrefixHeader.pch */,
 			);
 			path = "OC_算法";
 			sourceTree = "<group>";
@@ -285,6 +300,7 @@
 				4064B0E2214F66CF00F3D34B /* 03-repeatNumber.m in Sources */,
 				402950C62181459E00E492BF /* DeleteNode_18.m in Sources */,
 				4029509E217FFB3600E492BF /* printOneToMaxOfNDigits_17.m in Sources */,
+				402950F22184038600E492BF /* NSArray+Extension.m in Sources */,
 				402950EE2183FA7400E492BF /* IsNumeric_20.m in Sources */,
 				402950EB2183F72700E492BF /* RegularExpressionMath_19.m in Sources */,
 				402E4A1B216723CB001C6863 /* GetNextTreeLinkNode.m in Sources */,
@@ -433,6 +449,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2V259WG54;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OC_算法/PrefixHeader.pch";
 				INFOPLIST_FILE = "OC_算法/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +468,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C2V259WG54;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OC_算法/PrefixHeader.pch";
 				INFOPLIST_FILE = "OC_算法/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

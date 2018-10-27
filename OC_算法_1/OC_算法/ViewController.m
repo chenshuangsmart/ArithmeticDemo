@@ -21,6 +21,7 @@
 #import "NumberOfOne_15.h"
 #import "power_16.h"
 #import "DeleteNode_18.h"
+#import "NSArray+Extension.h"
 
 @interface ViewController ()
 
@@ -60,7 +61,7 @@
 //    [self jumpFloorII];
     
     // 10.4 矩形覆盖
-//    [self rectCover];
+    [self rectCover];
     
     // 11 折半查询
 //    [self minNumberInRotateArray];
@@ -81,7 +82,7 @@
 //    [self deleteNode];
     
     // 18.2 删除链表中重复的结点
-    [self deleteDuplication];
+//    [self deleteDuplication];
 }
 
 //- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer{
@@ -105,15 +106,31 @@
 
 // 3.数组中重复的数字
 - (void)repeatNumber {
-    NSArray *numbers = @[@2,@3,@1,@0,@2,@5];
-    NSArray *repeatNums = [_3_repeatNumber duplicate:numbers];
-    NSLog(@"numbers = %@",repeatNums);
+    NSMutableArray *arrM = [NSMutableArray array];
+    for (int i = 0; i < 10; i++) {
+        NSMutableArray *numbers = [NSMutableArray array];
+        for (int j = 0; j < 10; j++) {
+            [numbers addObject:[NSNumber numberWithInt:arc4random_uniform(10)]];
+        }
+        [arrM addObject:numbers];
+    }
+    
+    for (int i = 0; i < arrM.count; i++) {
+        NSArray *numbers = [arrM objectAtIndex:i];
+        NSArray *repeatNumbers = [_3_repeatNumber duplicate:numbers];
+        NSLog(@"i = %d, 原始数组:%@, 重复数字:%@",i,[numbers getAllObjectsDescription],[repeatNumbers getAllObjectsDescription]);
+    }
 }
 
 // 4.二维数组中的查找
 - (void)twoDimensionArrayFind {
-    bool isFind = [TwoDimensionalArrayFind_04 findNumber:9 numbers:nil];
-    NSLog(@"isFind = %d",isFind);
+    NSArray *targets = @[@16,@6,@30,@20,@15];
+    for (int i = 0; i < targets.count; i++) {
+        bool isFind = [TwoDimensionalArrayFind_04 findNumber: [targets vFI:i] numbers:nil];
+        if (!isFind) {
+            NSLog(@"target = %d, noFind",[targets vFI:i]);
+        }
+    }
 }
 
 // 5.替换空格
@@ -161,24 +178,29 @@
 // 10.1 斐波那契数列
 - (void)fibonacci {
     for (int i = 0; i < 20; i++) {
-        NSLog(@"%d",[Fibonacci Fibonacci:i]);
+        NSLog(@"i = %d, total = %d",i,[Fibonacci Fibonacci:i]);
     }
 }
 
 // 10.2 跳台阶
 - (void)jumpFloor {
-    NSLog(@"%d",[Fibonacci jumpFloor:10]);
+    for (int i = 0; i < 10; i++) {
+        NSLog(@"i = %d, total = %d",i,[Fibonacci jumpFloor:i]);
+    }
 }
 
 // 10.3 变态跳台阶
 - (void)jumpFloorII {
-    NSLog(@"%d",[Fibonacci jumpFloor2:10]);
+    for (int i = 0; i < 10; i++) {
+        NSLog(@"i = %d, total = %d",i,[Fibonacci jumpFloor2:i]);
+    }
 }
 
 // 10.4 矩形覆盖
 - (void)rectCover {
-    NSLog(@"%d",[Fibonacci rectCover:5]);
-    fprintf(stderr, "%s", [@"rectCover" UTF8String]);
+    for (int i = 0; i < 10; i++) {
+        NSLog(@"i = %d, total = %d",i,[Fibonacci rectCover:i]);
+    }
 }
 
 // 11 折半查询

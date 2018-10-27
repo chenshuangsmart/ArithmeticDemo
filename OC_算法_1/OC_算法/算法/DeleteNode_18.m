@@ -26,7 +26,7 @@
     for (int i = 0; i < 10; i++) {
         [numbers addObject:@(i)];
     }
-    LinkedArray *linkArray = [self getLinkedArray:numbers];
+    LinkedArray *linkArray = [[LinkedArray alloc] initLiknedArrayWithNunbers:numbers];
     ListNode *headNode = [linkArray getFirstListNode];
     ListNode *lastDelNode = [linkArray getLastListNode];
     
@@ -67,15 +67,17 @@
             [numbers addObject:@(i)];
         }
     }
-    LinkedArray *linkArray = [self getLinkedArray:numbers];
+    LinkedArray *linkArray = [[LinkedArray alloc] initLiknedArrayWithNunbers:numbers];
+    NSLog(@"原始链表数据:");
     [linkArray printAllListNode];
-    
+    NSLog(@"------------------");
     ListNode *firstNode = [linkArray getFirstListNode];
     ListNode *headNode = [self deleteDuplicationListNode:firstNode];
-    
+    NSLog(@"删除重复节点后的链表数据:");
     [headNode printAllListNode];
 }
 
+// 删除重复节点
 - (ListNode *)deleteDuplicationListNode:(ListNode *)pHeadNode {
     if (pHeadNode == nil || pHeadNode.next == nil) {
         return pHeadNode;
@@ -91,20 +93,6 @@
         pHeadNode.next = [self deleteDuplicationListNode:pHeadNode.next];
         return pHeadNode;
     }
-}
-
-// 返回链表
-- (LinkedArray *)getLinkedArray:(NSArray *)numbers {
-    if (numbers == nil || numbers.count == 0) {
-        return nil;
-    }
-    // 生成一个链表
-    LinkedArray *linkArray = [LinkedArray array];
-    for (int i = 0; i < numbers.count; i++) {
-        [linkArray addObject:numbers[i]];
-    }
-    
-    return linkArray;
 }
 
 @end

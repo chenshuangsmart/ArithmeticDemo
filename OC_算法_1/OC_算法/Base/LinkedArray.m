@@ -18,6 +18,20 @@
 
 @implementation LinkedArray
 
+//构造方法
++ (instancetype)array {
+    return [[self alloc]init];
+}
+
+/** 通过一个 number 数组返回一个链表 */
+- (instancetype)initLiknedArrayWithNunbers:(NSArray *)numbers {
+    self = [super init];
+    if (self) {
+        [self createLinkedArray:numbers];
+    }
+    return self;
+}
+
 #pragma mark - add
 
 //添加元素
@@ -127,14 +141,12 @@
     if (curNode == nil) {
         return;
     }
-    NSLog(@"------ LinkedArray printAllListNode start ------");
     while (curNode) {
         ListNode *preNode = curNode.previous;
         ListNode *nextNode = curNode.next;
         NSLog(@"curNode=%p, value=%d, preNode=%p, nextNode=%p",curNode, curNode.value, preNode, nextNode);
         curNode = curNode.next;
     }
-    NSLog(@"------ LinkedArray printAllListNode end ------");
 }
 
 #pragma mark - private
@@ -150,9 +162,15 @@
     _size -- ;//长度更新
 }
 
-//构造方法
-+ (instancetype)array {
-    return [[self alloc]init];
+// 初始化一个链表
+- (void)createLinkedArray:(NSArray *)numbers {
+    if (numbers == nil || numbers.count == 0) {
+        return;
+    }
+    // 生成一个链表
+    for (int i = 0; i < numbers.count; i++) {
+        [self addObject:numbers[i]];
+    }
 }
 
 @end

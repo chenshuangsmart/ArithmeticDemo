@@ -33,6 +33,7 @@
 
 @implementation TwoDimensionalArrayFind_04
 
+// 初始化一个二维数组
 + (bool)findNumber:(int)number numbers:(NSArray *)numbers {
     if (numbers == nil) {
         NSArray *number1 = @[@1,@4,@7,@11,@15];
@@ -45,6 +46,7 @@
     return [self find:number matrix:numbers];
 }
 
+// 在二维数组 matrix 中查找目标数 target
 + (bool)find:(int)target matrix:(NSArray *)matrix {
     if (matrix == nil || matrix.count == 0) {
         return false;
@@ -56,10 +58,10 @@
     int c = (int)cols - 1; // 第 c 列 从右上角开始
     
     while (r <= rows - 1 && c >= 0) {
-        if (target == [matrix[r][c] integerValue]) {
-            NSLog(@"target = %d, row = %d, col = %d",target,r,c);
+        if (target == [matrix vFI:r j:c]) {
+            NSLog(@"target = %d, isFind row = %d, col = %d",target,r,c);
             return true;
-        } else if (target > [matrix[r][c] integerValue]) {
+        } else if (target > [matrix vFI:r j:c]) {
             r++; // 行数+1
         } else {
             c--;    // 列数减1

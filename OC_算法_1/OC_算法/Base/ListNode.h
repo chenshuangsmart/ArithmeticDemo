@@ -13,16 +13,19 @@
  */
 @interface ListNode : NSObject
 
-@property (strong , nonatomic) ListNode *previous; //上个节点
+/** 上个节点 */
+@property (strong , nonatomic) ListNode *previous;
 
-@property (strong , nonatomic) ListNode *next; //下个节点
+/** 下个节点 */
+@property (strong , nonatomic) ListNode *next;
 
-@property (strong , nonatomic) id content; //当前节点内容
+/** 当前节点内容 */
+@property (strong , nonatomic) id content;
 
 /** int */
 @property(nonatomic, assign) int value;
 
-// 打印从当前节点开始之后所有的节点数据
+/** 打印从当前节点开始之后所有的节点数据 */
 - (void)printAllListNode;
 
 @end

@@ -13,23 +13,24 @@
 
 /**
  题目描述: 输入链表的第一个节点，从尾到头反过来打印出每个结点的值。
- 
  */
 
 @implementation PrintListFromTailToHead_06
 
 /** 使用栈 */
 + (NSArray *)printListFromTailToHeadByShed:(NSArray *)numbers {
+    LinkedArray *linkedArray = [[LinkedArray alloc] initLiknedArrayWithNunbers:numbers];
     // 第一个节点
-    ListNode *listNode = [self getFirstListNode:numbers];
+    ListNode *listNode = [linkedArray getFirstListNode];
     
     return [self getListFromTailToHead:listNode];
 }
 
 /** 使用递归 */
 + (NSArray *)printListFromTailToHeadByRecursion:(NSArray *)numbers {
+    LinkedArray *linkedArray = [[LinkedArray alloc] initLiknedArrayWithNunbers:numbers];
     // 第一个节点
-    ListNode *listNode = [self getFirstListNode:numbers];
+    ListNode *listNode = [linkedArray getFirstListNode];
     
     NSMutableArray *values = [NSMutableArray array];
     if (listNode != nil) {
@@ -49,8 +50,9 @@
  * 第一个节点就是链表的第一个真正存储值的节点。
  */
 + (NSArray *)printListFromTailToHeadByInsert:(NSArray *)numbers {
+    LinkedArray *linkedArray = [[LinkedArray alloc] initLiknedArrayWithNunbers:numbers];
     // 第一个节点
-    ListNode *listNode = [self getFirstListNode:numbers];
+    ListNode *listNode = [linkedArray getFirstListNode];
     
     // 头插法构建逆序链表
     ListNode *head = [[ListNode alloc] init];
@@ -73,8 +75,9 @@
 
 /** 使用Collection reverse*/
 + (NSArray *)printListFromTailToHeadByReverse:(NSArray *)numbers {
+    LinkedArray *linkedArray = [[LinkedArray alloc] initLiknedArrayWithNunbers:numbers];
     // 第一个节点
-    ListNode *listNode = [self getFirstListNode:numbers];
+    ListNode *listNode = [linkedArray getFirstListNode];
     
     // 构建 ArrayList
     NSMutableArray *values = [NSMutableArray array];
@@ -110,20 +113,4 @@
     return values.copy;
 }
 
-// 返回链表的第一个节点
-+ (ListNode *)getFirstListNode:(NSArray *)numbers {
-    if (numbers == nil || numbers.count == 0) {
-        return nil;
-    }
-    // 生成一个链表
-    LinkedArray *linkArray = [LinkedArray array];
-    for (int i = 0; i < numbers.count; i++) {
-        [linkArray addObject:numbers[i]];
-    }
-    
-    // 第一个节点
-    ListNode *listNode = [linkArray getFirstListNode];
-    
-    return listNode;
-}
 @end

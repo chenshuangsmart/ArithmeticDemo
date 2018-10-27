@@ -43,11 +43,14 @@
     if (nums == nil || nums.count == 0) {
         return nil;
     }
+    
     NSMutableArray *numbers = [NSMutableArray arrayWithArray:nums];
     NSMutableArray *temp = [NSMutableArray array];
+    
     for (int i = 0; i < numbers.count; i++) {
         while ([numbers[i] intValue] != i) {
             int number = [numbers[i] intValue];
+            // 检查 number 与第 number 位置上的值是否相等,如果相等,说明该 number 重复了,否则索引 i 和 number 两者的值
             if (number == [numbers[number] intValue]) {
                 [temp addObject:numbers[i]];
                 return temp.copy;
@@ -55,6 +58,7 @@
             [self cs_swap:numbers i:i j:number];
         }
     }
+    
     return nil;
 }
 

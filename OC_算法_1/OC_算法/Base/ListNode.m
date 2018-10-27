@@ -20,14 +20,12 @@
 // 打印从当前节点开始之后所有的节点数据
 - (void)printAllListNode {
     ListNode *curNode = self;
-    NSLog(@"------ List Node printAllListNode start ------");
     while (curNode) {
         ListNode *preNode = curNode.previous;
         ListNode *nextNode = curNode.next;
         NSLog(@"curNode=%p, value=%d, preNode=%p, nextNode=%p",curNode, curNode.value, preNode, nextNode);
         curNode = curNode.next;
     }
-    NSLog(@"------ List Node printAllListNode end ------");
 }
 
 @end
