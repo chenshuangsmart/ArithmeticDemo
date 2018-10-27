@@ -1,4 +1,5 @@
 # ArithmeticDemo
+备注：该项目主要是在 [CS-Notes](https://github.com/CyC2018/CS-Notes/blob/master/notes/%E5%89%91%E6%8C%87%20offer%20%E9%A2%98%E8%A7%A3.md#1-%E5%89%8D%E8%A8%80) 的基础上编写的。只是本人用 OC 语法实现而已，非常感谢该作者，如有侵权，请告知。
 
 算法目录
 1. 前言
