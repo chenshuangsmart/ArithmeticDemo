@@ -25,6 +25,7 @@
 - (instancetype)init {
     self = [super init];
     if (self) {
+        // 上 下 左 右 四个方向
         _next = @[@[@0,@(-1)],@[@0,@1],@[@(-1),@0],@[@1,@0]];
     }
     return self;
@@ -37,7 +38,7 @@
     _rows = rows;
     _cols = cols;
     
-    // 1.先构造一个二维数组
+    // 1.先构造一个二维数组,数值都填充为0,表示没有遍历过
     NSMutableArray *marked = [NSMutableArray array];
     for (int i = 0; i < _rows; i++) {
         NSMutableArray *firstArrM = [NSMutableArray array];
@@ -47,12 +48,14 @@
         [marked addObject:firstArrM];
     }
     
+    // 2.构造一个矩阵 array-完整路径的数组,即a,b,t,g,c...h,并且是一个 rows * cols 的矩阵
     NSMutableArray *oriStrs = [NSMutableArray array];
     for (int i = 0; i < oriStr.length; i++) {
         [oriStrs addObject:[oriStr substringWithRange:NSMakeRange(i, 1)]];
     }
     NSMutableArray *matrix = [self buildMatrix:oriStrs.copy];
     
+    // 一条完整路径的数组
     NSMutableArray *strs = [NSMutableArray array];
     for (int i = 0; i < str.length; i++) {
         [strs addObject:[str substringWithRange:NSMakeRange(i, 1)]];
@@ -72,7 +75,7 @@
 - (bool)backetracking:(NSArray *)matrix strs:(NSArray *)strs marked:(NSArray *)marked pathLen:(int)pathLen r:(int)r c:(int)c {
     // 0.即路径长度和字符串长度相等
     if (pathLen == strs.count) {
-        NSLog(@"marked = %@",marked);
+        NSLog(@"路径:\n%@",[marked getAllObjectsDescription]);
         return YES;
     }
 //    r < 0 || r >= _rows || c < 0 || c >= _cols || ![oriPathStr isEqualToString:tarPathStr] || marked[r][c]
@@ -92,7 +95,12 @@
     return NO;
 }
 
-// 构造一个矩阵 array-完整路径的数组,即a,b,t,g,c...h,并且是一个 rows * cols 的矩阵
+/**
+ 构造一个矩阵 array-完整路径的数组,即a,b,t,g,c...h,并且是一个 rows * cols 的矩阵
+ a  b   t   g
+ c  f   c   s
+ j  d   e   h
+ */
 - (NSMutableArray *)buildMatrix:(NSArray *)array {
     // 0.判断是否有值
     if (_rows == 0 || _cols == 0) {

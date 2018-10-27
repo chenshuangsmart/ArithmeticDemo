@@ -10,5 +10,6 @@
 #define PrefixHeader_pch
 
 #import "NSArray+Extension.h"
+#import "NSString+Extension.h"
 
 #endif /* PrefixHeader_pch */

@@ -90,6 +90,7 @@
             [_digitSum addObject:firstArrM];
         }
     }
+    
     // 赋值
     for (int i = 0; i < _rows; i++) {
         for (int j = 0; j < _cols; j++) {

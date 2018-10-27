@@ -29,9 +29,12 @@
     LinkedArray *linkArray = [[LinkedArray alloc] initLiknedArrayWithNunbers:numbers];
     ListNode *headNode = [linkArray getFirstListNode];
     ListNode *lastDelNode = [linkArray getLastListNode];
+    NSLog(@"---------------原始链表数据---------------");
+    [headNode printAllListNode];
     
     ListNode *newHeadNode = [self deleteNode:headNode tagDelNode:lastDelNode];
-    NSLog(@"content = %@",newHeadNode.content);
+    NSLog(@"---------------删除后链表数据---------------");
+    [newHeadNode printAllListNode];
 }
 
 - (ListNode *)deleteNode:(ListNode *)headNode tagDelNode:(ListNode *)tagDelNode {
@@ -54,7 +57,6 @@
     return headNode;
 }
 
-
 /** 删除 重复节点 */
 - (void)deleteDuplicationNode {
     NSMutableArray *numbers = [NSMutableArray array];
@@ -68,12 +70,11 @@
         }
     }
     LinkedArray *linkArray = [[LinkedArray alloc] initLiknedArrayWithNunbers:numbers];
-    NSLog(@"原始链表数据:");
+    NSLog(@"----------------原始链表数据----------------");
     [linkArray printAllListNode];
-    NSLog(@"------------------");
     ListNode *firstNode = [linkArray getFirstListNode];
     ListNode *headNode = [self deleteDuplicationListNode:firstNode];
-    NSLog(@"删除重复节点后的链表数据:");
+    NSLog(@"----------------删除重复节点后的链表数据----------------");
     [headNode printAllListNode];
 }
 

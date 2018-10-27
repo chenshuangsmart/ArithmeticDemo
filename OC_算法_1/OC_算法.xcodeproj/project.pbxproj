@@ -14,6 +14,7 @@
 		402950EB2183F72700E492BF /* RegularExpressionMath_19.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950EA2183F72700E492BF /* RegularExpressionMath_19.m */; };
 		402950EE2183FA7400E492BF /* IsNumeric_20.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950ED2183FA7400E492BF /* IsNumeric_20.m */; };
 		402950F22184038600E492BF /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950F12184038600E492BF /* NSArray+Extension.m */; };
+		402950F6218469E000E492BF /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950F5218469E000E492BF /* NSString+Extension.m */; };
 		402E4A1B216723CB001C6863 /* GetNextTreeLinkNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 402E4A1A216723CB001C6863 /* GetNextTreeLinkNode.m */; };
 		40370404216ED85500C4D384 /* MinNumberInRotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 40370403216ED85500C4D384 /* MinNumberInRotateArray.m */; };
 		4037F635217D579000DEE0C5 /* MovingCount_13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4037F634217D579000DEE0C5 /* MovingCount_13.m */; };
@@ -54,6 +55,8 @@
 		402950F02184038600E492BF /* NSArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
 		402950F12184038600E492BF /* NSArray+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
 		402950F321840E7100E492BF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		402950F4218469E000E492BF /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		402950F5218469E000E492BF /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		402E4A19216723CB001C6863 /* GetNextTreeLinkNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetNextTreeLinkNode.h; sourceTree = "<group>"; };
 		402E4A1A216723CB001C6863 /* GetNextTreeLinkNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetNextTreeLinkNode.m; sourceTree = "<group>"; };
 		40370402216ED85500C4D384 /* MinNumberInRotateArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinNumberInRotateArray.h; sourceTree = "<group>"; };
@@ -114,6 +117,8 @@
 			children = (
 				402950F02184038600E492BF /* NSArray+Extension.h */,
 				402950F12184038600E492BF /* NSArray+Extension.m */,
+				402950F4218469E000E492BF /* NSString+Extension.h */,
+				402950F5218469E000E492BF /* NSString+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				40506444216C34D700162CB3 /* Fibonacci.m in Sources */,
 				4064B0DE214F666600F3D34B /* ViewController.m in Sources */,
 				40636FC32159F4D700DE29C4 /* ListNode.m in Sources */,
+				402950F6218469E000E492BF /* NSString+Extension.m in Sources */,
 				40506441216C312F00162CB3 /* TwoStackQueue.m in Sources */,
 				40A425342176BEBD008A3D4D /* MatrixHasPath.m in Sources */,
 				40C24D8A21547A3B00F3C6ED /* PrintListFromTailToHead_06.m in Sources */,

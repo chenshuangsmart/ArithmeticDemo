@@ -20,6 +20,8 @@
         if ([self[i] isKindOfClass:[NSNumber class]]) {
             NSNumber *number = (NSNumber *)self[i];
             [strM appendString:[NSString stringWithFormat:@"%d ",number.intValue]];
+        } else if ([self[i] isKindOfClass:[NSArray class]]) {
+            [strM appendString:[NSString stringWithFormat:@"%@ \n",[self[i] getAllObjectsDescription]]];
         }
     }
     return strM;

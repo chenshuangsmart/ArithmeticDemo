@@ -61,10 +61,13 @@
 //    [self jumpFloorII];
     
     // 10.4 矩形覆盖
-    [self rectCover];
+//    [self rectCover];
     
-    // 11 折半查询
+    // 11.1 折半查询
 //    [self minNumberInRotateArray];
+    
+    // 11.2 折半查询
+//    [self minNumberInRotateArray2];
     
     // 12.矩阵中的路径
 //    [self matrixHasPath];
@@ -82,7 +85,7 @@
 //    [self deleteNode];
     
     // 18.2 删除链表中重复的结点
-//    [self deleteDuplication];
+    [self deleteDuplication];
 }
 
 //- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer{
@@ -203,17 +206,38 @@
     }
 }
 
-// 11 折半查询
+// 11.1 折半查询
 - (void)minNumberInRotateArray {
-    int number = [MinNumberInRotateArray minNumberInRotateArray:@[@3,@4,@2,@1,@3]];
+    int number = [MinNumberInRotateArray minNumberInRotateArray:@[@1,@4,@8,@11,@20]];
+    NSLog(@"number = %d",number);
+}
+
+// 11.2 折半查询
+- (void)minNumberInRotateArray2 {
+    int number = [MinNumberInRotateArray minNumberInRotateArray2:@[@3,@4,@2,@1,@3]];
     NSLog(@"number = %d",number);
 }
 
 // 12.矩阵中的路径
 - (void)matrixHasPath {
     MatrixHasPath *hasPath = [[MatrixHasPath alloc] init];
-    bool result = [hasPath hasPath:@"abtgcfcsjdeh" rows:3 cols:4 str:@"bfceh"];
-    NSLog(@"result = %d",result);
+    NSString *pathStr = @"abtgcfcsjdeh";
+    
+    NSMutableArray *tagPaths = [NSMutableArray array];
+    [tagPaths addObject:@"bfce"];
+    [tagPaths addObject:@"bfceh"];
+    [tagPaths addObject:@"acfde"];
+    [tagPaths addObject:@"bcjd"];
+    [tagPaths addObject:@"abfceh"];
+    [tagPaths addObject:@"abtch"];
+    [tagPaths addObject:@"abtsh"];
+    
+    for (int i = 0; i < tagPaths.count; i++) {
+        NSString *tagPath = [tagPaths objectAtIndex:i];
+        bool result = [hasPath hasPath:pathStr rows:3 cols:4 str:tagPath];
+        NSLog(@"i = %d, path = %@, result = %d",i,tagPath, result);
+        NSLog(@"----------------------------------------");
+    }
 }
 
 // 13.机器人的运动范围
@@ -225,14 +249,16 @@
 
 // 15.二进制中 1 的个数
 - (void)numberOfOne {
-    int count = [NumberOfOne_15 numberOfOne:10];
-    NSLog(@"count = %d",count);
+    for (int i = 0; i < 20; i++) {
+        NSLog(@"i = %d, decimal = %@, count = %d",i,[[NSString stringWithFormat:@"%d",i] convertBinarySystemFromDecimalSystem],[NumberOfOne_15 numberOfOne:i]);
+    }
 }
 
 // 16.数值的整数次方
 - (void)power {
-    double value = [power_16 power:2 exponent:5];
-    NSLog(@"value = %f",value);
+    for (int i = 0; i < 10; i++) {
+        NSLog(@"base = 2, exponent = %d, result = %f",i,[power_16 power:2 exponent:i]);
+    }
 }
 
 // 18.在 O(1) 时间内删除链表节点
