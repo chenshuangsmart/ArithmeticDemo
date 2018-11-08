@@ -31,6 +31,7 @@
 #import "MirrorTree_27.h"
 #import "IsSymmetrical_28.h"
 #import "PrintMatrixClockwise_29.h"
+#import "PrintMatrixClockwise_29.h"
 
 @interface ViewController ()
 
@@ -373,6 +374,13 @@
 
 // 29.顺时针打印矩阵
 - (void)printMatrixClockwise {
-    
+    NSMutableArray *numbers = [NSMutableArray array];
+    for (int i = 1; i < 21; i++) {
+        [numbers addObject:@(i)];
+    }
+    NSArray *result = [PrintMatrixClockwise_29 printMatrix:numbers];
+    NSString *resultStr = [result getAllObjectsDescription];
+    NSLog(@"resultStr = %@",resultStr);
 }
+
 @end

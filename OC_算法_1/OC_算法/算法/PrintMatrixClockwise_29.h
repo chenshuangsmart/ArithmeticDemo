@@ -18,6 +18,6 @@
 
  @param matrix 二维数组
  */
-+ (void)printMatrix:(NSArray *)matrix;
++ (NSArray *)printMatrix:(NSArray *)matrix;
 
 @end
