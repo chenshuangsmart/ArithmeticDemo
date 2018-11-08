@@ -11,5 +11,9 @@
 
 #import "NSArray+Extension.h"
 #import "NSString+Extension.h"
+#import "ListNode.h"
+#import "LinkedArray.h"
+#import "Stack.h"
+#import "BinaryTreeNode.h"
 
 #endif /* PrefixHeader_pch */

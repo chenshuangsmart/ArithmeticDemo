@@ -22,6 +22,15 @@
 #import "power_16.h"
 #import "DeleteNode_18.h"
 #import "NSArray+Extension.h"
+#import "reOrderArray_21.h"
+#import "FindKthToTail_22.h"
+#import "EntryNodeOfLoop_23.h"
+#import "ReverseList_24.h"
+#import "LinkedArray.h"
+#import "MergeTwoListNode_25.h"
+#import "MirrorTree_27.h"
+#import "IsSymmetrical_28.h"
+#import "PrintMatrixClockwise_29.h"
 
 @interface ViewController ()
 
@@ -85,7 +94,31 @@
 //    [self deleteNode];
     
     // 18.2 删除链表中重复的结点
-    [self deleteDuplication];
+//    [self deleteDuplication];
+    
+    // 21.调整数组顺序使奇数位于偶数前面
+//    [self reOrderArray];
+    
+    // 22.链表中倒数第 K 个结点
+//    [self findKthToTail];
+    
+    // 23.链表中环的入口结点
+//    [self entryNodeOfLoop];
+    
+    // 24 反转链表
+//    [self reverseList];
+    
+    // 25 合并两个排序的链表
+//    [self MergeTwoListNode];
+    
+    // 27.二叉树的镜像
+//    [self mirror];
+    
+    // 28.对称的二叉树
+//    [self isSymmetrical];
+    
+    // 29.顺时针打印矩阵
+    [self printMatrixClockwise];
 }
 
 //- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer{
@@ -273,4 +306,73 @@
     [deleteNode deleteDuplicationNode];
 }
 
+// 21.调整数组顺序使奇数位于偶数前面
+- (void)reOrderArray {
+    NSMutableArray *tempArrM = [NSMutableArray array];
+    for (int i = 0; i < 20; i++) {
+        int number = arc4random_uniform(10);
+        [tempArrM addObject:[NSNumber numberWithInt:number]];
+    }
+    NSLog(@"原始数组:%@",[tempArrM getAllObjectsDescription]);
+    NSArray *arr = [reOrderArray_21 reOrderArray:tempArrM.copy];
+    NSLog(@"原始数组:%@",[arr getAllObjectsDescription]);
+}
+
+// 22.链表中倒数第 K 个结点
+- (void)findKthToTail {
+    NSMutableArray *numbers = [NSMutableArray array];
+    for (int i = 0; i < 10; i++) {
+        [numbers addObject:[NSNumber numberWithInt:i]];
+    }
+    ListNode *listNode = [FindKthToTail_22 findKthToTail:numbers.copy index:6];
+    [listNode printAllListNode];
+}
+
+// 23.链表中环的入口结点
+- (void)entryNodeOfLoop {
+    ListNode *entryNode = [EntryNodeOfLoop_23 entryNodeOfLoop];
+    NSLog(@"entryNode content = %d",entryNode.value);
+}
+
+// 24 反转链表
+- (void)reverseList {
+    NSMutableArray *arrM = [NSMutableArray array];
+    for (int i = 0; i < 10; i++) {
+        [arrM addObject:[NSNumber numberWithInt:i]];
+    }
+    LinkedArray *listArr = [[LinkedArray alloc] initLiknedArrayWithNunbers:arrM.copy];
+    NSLog(@"-------------之前链表--------------");
+    [listArr printAllListNode];
+    ListNode *newHead = [ReverseList_24 reverseList:arrM.copy];
+    NSLog(@"-------------反转链表--------------");
+    [newHead printAllListNode];
+}
+
+// 25 合并两个排序的链表
+- (void)MergeTwoListNode {
+    NSArray *array1 = @[@1,@3,@5];
+    NSArray *array2 = @[@2,@4,@6];
+    
+    ListNode *listNode1 = [MergeTwoListNode_25 mergeByRecursionWith:array1 numbers2:array2];
+    [listNode1 printAllListNode];
+     NSLog(@"-------------分割线--------------");
+    ListNode *listNode2 = [MergeTwoListNode_25 mergeByIterationWith:array1 numbers2:array2];
+    [listNode2 printAllListNode];
+}
+
+// 27.二叉树的镜像
+- (void)mirror {
+    [MirrorTree_27 mirror];
+}
+
+// 28.对称的二叉树
+- (void)isSymmetrical {
+    bool isSymetrical = [IsSymmetrical_28 isSymmetrical];
+    NSLog(@"isSymetrical = %d",isSymetrical);
+}
+
+// 29.顺时针打印矩阵
+- (void)printMatrixClockwise {
+    
+}
 @end
