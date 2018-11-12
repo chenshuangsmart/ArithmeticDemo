@@ -7,81 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		401105CA21868F2C00B2D04C /* reOrderArray_21.m in Sources */ = {isa = PBXBuildFile; fileRef = 401105C921868F2C00B2D04C /* reOrderArray_21.m */; };
-		401105F52187DD5E00B2D04C /* FindKthToTail_22.m in Sources */ = {isa = PBXBuildFile; fileRef = 401105F42187DD5E00B2D04C /* FindKthToTail_22.m */; };
-		40295098217FF65D00E492BF /* NumberOfOne_15.m in Sources */ = {isa = PBXBuildFile; fileRef = 40295097217FF65D00E492BF /* NumberOfOne_15.m */; };
-		4029509B217FF85F00E492BF /* power_16.m in Sources */ = {isa = PBXBuildFile; fileRef = 4029509A217FF85F00E492BF /* power_16.m */; };
-		4029509E217FFB3600E492BF /* printOneToMaxOfNDigits_17.m in Sources */ = {isa = PBXBuildFile; fileRef = 4029509D217FFB3600E492BF /* printOneToMaxOfNDigits_17.m */; };
-		402950C62181459E00E492BF /* DeleteNode_18.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950C52181459E00E492BF /* DeleteNode_18.m */; };
-		402950EB2183F72700E492BF /* RegularExpressionMath_19.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950EA2183F72700E492BF /* RegularExpressionMath_19.m */; };
-		402950EE2183FA7400E492BF /* IsNumeric_20.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950ED2183FA7400E492BF /* IsNumeric_20.m */; };
 		402950F22184038600E492BF /* NSArray+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950F12184038600E492BF /* NSArray+Extension.m */; };
 		402950F6218469E000E492BF /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 402950F5218469E000E492BF /* NSString+Extension.m */; };
-		402E4A1B216723CB001C6863 /* GetNextTreeLinkNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 402E4A1A216723CB001C6863 /* GetNextTreeLinkNode.m */; };
-		40370404216ED85500C4D384 /* MinNumberInRotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 40370403216ED85500C4D384 /* MinNumberInRotateArray.m */; };
-		4037F635217D579000DEE0C5 /* MovingCount_13.m in Sources */ = {isa = PBXBuildFile; fileRef = 4037F634217D579000DEE0C5 /* MovingCount_13.m */; };
-		40506441216C312F00162CB3 /* TwoStackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 40506440216C312F00162CB3 /* TwoStackQueue.m */; };
-		40506444216C34D700162CB3 /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 40506443216C34D700162CB3 /* Fibonacci.m */; };
-		40636FBC2159F18C00DE29C4 /* ReConstructBinaryTree_07.m in Sources */ = {isa = PBXBuildFile; fileRef = 40636FBB2159F18C00DE29C4 /* ReConstructBinaryTree_07.m */; };
 		40636FC02159F37500DE29C4 /* Stack.m in Sources */ = {isa = PBXBuildFile; fileRef = 40636FBF2159F37500DE29C4 /* Stack.m */; };
 		40636FC32159F4D700DE29C4 /* ListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 40636FC22159F4D700DE29C4 /* ListNode.m */; };
 		40636FC62159F6B800DE29C4 /* LinkedArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 40636FC52159F6B800DE29C4 /* LinkedArray.m */; };
 		40636FEE215C959100DE29C4 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 40636FED215C959100DE29C4 /* BinaryTreeNode.m */; };
 		40636FF1215DB5E600DE29C4 /* HashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 40636FF0215DB5E600DE29C4 /* HashMap.m */; };
-		40637E0A21892F56001044C9 /* EntryNodeOfLoop_23.m in Sources */ = {isa = PBXBuildFile; fileRef = 40637E0921892F56001044C9 /* EntryNodeOfLoop_23.m */; };
-		40637E71218A8388001044C9 /* ReverseList_24.m in Sources */ = {isa = PBXBuildFile; fileRef = 40637E70218A8388001044C9 /* ReverseList_24.m */; };
 		4063D6522136253100A5E3D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4063D6512136253100A5E3D4 /* AppDelegate.m */; };
 		4063D6582136253100A5E3D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4063D6562136253100A5E3D4 /* Main.storyboard */; };
 		4063D65A2136253200A5E3D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4063D6592136253200A5E3D4 /* Assets.xcassets */; };
 		4063D65D2136253200A5E3D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4063D65B2136253200A5E3D4 /* LaunchScreen.storyboard */; };
 		4063D6602136253200A5E3D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4063D65F2136253200A5E3D4 /* main.m */; };
 		4064B0DE214F666600F3D34B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4064B0DD214F666600F3D34B /* ViewController.m */; };
-		4064B0E2214F66CF00F3D34B /* 03-repeatNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4064B0E1214F66CF00F3D34B /* 03-repeatNumber.m */; };
-		409C28A3218FC873009B668E /* MergeTwoListNode_25.m in Sources */ = {isa = PBXBuildFile; fileRef = 409C28A2218FC872009B668E /* MergeTwoListNode_25.m */; };
-		409C28C821911E0D009B668E /* HasSubTree_26.m in Sources */ = {isa = PBXBuildFile; fileRef = 409C28C721911E0D009B668E /* HasSubTree_26.m */; };
-		409C28EF21926951009B668E /* MirrorTree_27.m in Sources */ = {isa = PBXBuildFile; fileRef = 409C28EE21926951009B668E /* MirrorTree_27.m */; };
-		409C28F221926BFB009B668E /* IsSymmetrical_28.m in Sources */ = {isa = PBXBuildFile; fileRef = 409C28F121926BFB009B668E /* IsSymmetrical_28.m */; };
-		409C28F521927033009B668E /* PrintMatrixClockwise_29.m in Sources */ = {isa = PBXBuildFile; fileRef = 409C28F421927033009B668E /* PrintMatrixClockwise_29.m */; };
-		40A425342176BEBD008A3D4D /* MatrixHasPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 40A425332176BEBD008A3D4D /* MatrixHasPath.m */; };
-		40C24D822151D59F00F3C6ED /* TwoDimensionalArrayFind_04.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C24D812151D59F00F3C6ED /* TwoDimensionalArrayFind_04.m */; };
-		40C24D852151D91200F3C6ED /* ReplaceBlank_05.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C24D842151D91200F3C6ED /* ReplaceBlank_05.m */; };
-		40C24D8A21547A3B00F3C6ED /* PrintListFromTailToHead_06.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C24D8921547A3B00F3C6ED /* PrintListFromTailToHead_06.m */; };
+		406C10212199040400216EAA /* FindKthToTail_22.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C0FEE2199040300216EAA /* FindKthToTail_22.m */; };
+		406C10222199040400216EAA /* MirrorTree_27.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C0FF02199040300216EAA /* MirrorTree_27.m */; };
+		406C10232199040400216EAA /* IsSymmetrical_28.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C0FF12199040300216EAA /* IsSymmetrical_28.m */; };
+		406C10242199040400216EAA /* MergeTwoListNode_25.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C0FF42199040300216EAA /* MergeTwoListNode_25.m */; };
+		406C10252199040400216EAA /* HasSubTree_26.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C0FF62199040300216EAA /* HasSubTree_26.m */; };
+		406C10262199040400216EAA /* PrintMatrixClockwise_29.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C0FF72199040300216EAA /* PrintMatrixClockwise_29.m */; };
+		406C10272199040400216EAA /* reOrderArray_21.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C0FF82199040300216EAA /* reOrderArray_21.m */; };
+		406C10282199040400216EAA /* EntryNodeOfLoop_23.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C0FFA2199040300216EAA /* EntryNodeOfLoop_23.m */; };
+		406C102A2199040400216EAA /* ReverseList_24.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C0FFF2199040300216EAA /* ReverseList_24.m */; };
+		406C102B2199040400216EAA /* DeleteNode_18.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C10012199040400216EAA /* DeleteNode_18.m */; };
+		406C102C2199040400216EAA /* MatrixHasPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C10032199040400216EAA /* MatrixHasPath.m */; };
+		406C102D2199040400216EAA /* NumberOfOne_15.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C10092199040400216EAA /* NumberOfOne_15.m */; };
+		406C102E2199040400216EAA /* MinNumberInRotateArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C100A2199040400216EAA /* MinNumberInRotateArray.m */; };
+		406C102F2199040400216EAA /* RegularExpressionMath_19.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C100B2199040400216EAA /* RegularExpressionMath_19.m */; };
+		406C10302199040400216EAA /* MovingCount_13.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C100E2199040400216EAA /* MovingCount_13.m */; };
+		406C10312199040400216EAA /* printOneToMaxOfNDigits_17.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C100F2199040400216EAA /* printOneToMaxOfNDigits_17.m */; };
+		406C10322199040400216EAA /* power_16.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C10102199040400216EAA /* power_16.m */; };
+		406C10332199040400216EAA /* TwoDimensionalArrayFind_04.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C10142199040400216EAA /* TwoDimensionalArrayFind_04.m */; };
+		406C10342199040400216EAA /* ReConstructBinaryTree_07.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C10162199040400216EAA /* ReConstructBinaryTree_07.m */; };
+		406C10352199040400216EAA /* TwoStackQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C10172199040400216EAA /* TwoStackQueue.m */; };
+		406C10362199040400216EAA /* PrintListFromTailToHead_06.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C10182199040400216EAA /* PrintListFromTailToHead_06.m */; };
+		406C10372199040400216EAA /* Fibonacci.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C10192199040400216EAA /* Fibonacci.m */; };
+		406C10382199040400216EAA /* ReplaceBlank_05.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C101A2199040400216EAA /* ReplaceBlank_05.m */; };
+		406C10392199040400216EAA /* 03-repeatNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C101B2199040400216EAA /* 03-repeatNumber.m */; };
+		406C103C219904B600216EAA /* IsNumeric_20.m in Sources */ = {isa = PBXBuildFile; fileRef = 406C103A219904B600216EAA /* IsNumeric_20.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		401105C821868F2C00B2D04C /* reOrderArray_21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reOrderArray_21.h; sourceTree = "<group>"; };
-		401105C921868F2C00B2D04C /* reOrderArray_21.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reOrderArray_21.m; sourceTree = "<group>"; };
-		401105F32187DD5E00B2D04C /* FindKthToTail_22.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindKthToTail_22.h; sourceTree = "<group>"; };
-		401105F42187DD5E00B2D04C /* FindKthToTail_22.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindKthToTail_22.m; sourceTree = "<group>"; };
-		40295096217FF65D00E492BF /* NumberOfOne_15.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NumberOfOne_15.h; sourceTree = "<group>"; };
-		40295097217FF65D00E492BF /* NumberOfOne_15.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NumberOfOne_15.m; sourceTree = "<group>"; };
-		40295099217FF85F00E492BF /* power_16.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = power_16.h; sourceTree = "<group>"; };
-		4029509A217FF85F00E492BF /* power_16.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = power_16.m; sourceTree = "<group>"; };
-		4029509C217FFB3600E492BF /* printOneToMaxOfNDigits_17.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = printOneToMaxOfNDigits_17.h; sourceTree = "<group>"; };
-		4029509D217FFB3600E492BF /* printOneToMaxOfNDigits_17.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = printOneToMaxOfNDigits_17.m; sourceTree = "<group>"; };
-		402950C42181459E00E492BF /* DeleteNode_18.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteNode_18.h; sourceTree = "<group>"; };
-		402950C52181459E00E492BF /* DeleteNode_18.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DeleteNode_18.m; sourceTree = "<group>"; };
-		402950E92183F72700E492BF /* RegularExpressionMath_19.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegularExpressionMath_19.h; sourceTree = "<group>"; };
-		402950EA2183F72700E492BF /* RegularExpressionMath_19.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionMath_19.m; sourceTree = "<group>"; };
-		402950EC2183FA7400E492BF /* IsNumeric_20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsNumeric_20.h; sourceTree = "<group>"; };
-		402950ED2183FA7400E492BF /* IsNumeric_20.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsNumeric_20.m; sourceTree = "<group>"; };
 		402950F02184038600E492BF /* NSArray+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Extension.h"; sourceTree = "<group>"; };
 		402950F12184038600E492BF /* NSArray+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Extension.m"; sourceTree = "<group>"; };
 		402950F321840E7100E492BF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		402950F4218469E000E492BF /* NSString+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		402950F5218469E000E492BF /* NSString+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
-		402E4A19216723CB001C6863 /* GetNextTreeLinkNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GetNextTreeLinkNode.h; sourceTree = "<group>"; };
-		402E4A1A216723CB001C6863 /* GetNextTreeLinkNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetNextTreeLinkNode.m; sourceTree = "<group>"; };
-		40370402216ED85500C4D384 /* MinNumberInRotateArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinNumberInRotateArray.h; sourceTree = "<group>"; };
-		40370403216ED85500C4D384 /* MinNumberInRotateArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinNumberInRotateArray.m; sourceTree = "<group>"; };
-		4037F633217D578F00DEE0C5 /* MovingCount_13.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MovingCount_13.h; sourceTree = "<group>"; };
-		4037F634217D579000DEE0C5 /* MovingCount_13.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovingCount_13.m; sourceTree = "<group>"; };
-		4050643F216C312F00162CB3 /* TwoStackQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoStackQueue.h; sourceTree = "<group>"; };
-		40506440216C312F00162CB3 /* TwoStackQueue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoStackQueue.m; sourceTree = "<group>"; };
-		40506442216C34D700162CB3 /* Fibonacci.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
-		40506443216C34D700162CB3 /* Fibonacci.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fibonacci.m; sourceTree = "<group>"; };
-		40636FBA2159F18C00DE29C4 /* ReConstructBinaryTree_07.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReConstructBinaryTree_07.h; sourceTree = "<group>"; };
-		40636FBB2159F18C00DE29C4 /* ReConstructBinaryTree_07.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReConstructBinaryTree_07.m; sourceTree = "<group>"; };
 		40636FBE2159F37500DE29C4 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		40636FBF2159F37500DE29C4 /* Stack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stack.m; sourceTree = "<group>"; };
 		40636FC12159F4D700DE29C4 /* ListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListNode.h; sourceTree = "<group>"; };
@@ -92,10 +63,6 @@
 		40636FED215C959100DE29C4 /* BinaryTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNode.m; sourceTree = "<group>"; };
 		40636FEF215DB5E600DE29C4 /* HashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashMap.h; sourceTree = "<group>"; };
 		40636FF0215DB5E600DE29C4 /* HashMap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HashMap.m; sourceTree = "<group>"; };
-		40637E0821892F56001044C9 /* EntryNodeOfLoop_23.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EntryNodeOfLoop_23.h; sourceTree = "<group>"; };
-		40637E0921892F56001044C9 /* EntryNodeOfLoop_23.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EntryNodeOfLoop_23.m; sourceTree = "<group>"; };
-		40637E6F218A8388001044C9 /* ReverseList_24.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseList_24.h; sourceTree = "<group>"; };
-		40637E70218A8388001044C9 /* ReverseList_24.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReverseList_24.m; sourceTree = "<group>"; };
 		4063D64D2136253000A5E3D4 /* OC_算法.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OC_算法.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4063D6502136253100A5E3D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4063D6512136253100A5E3D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -106,26 +73,56 @@
 		4063D65E2136253200A5E3D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4063D65F2136253200A5E3D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4064B0DD214F666600F3D34B /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4064B0E0214F66CF00F3D34B /* 03-repeatNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "03-repeatNumber.h"; sourceTree = "<group>"; };
-		4064B0E1214F66CF00F3D34B /* 03-repeatNumber.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "03-repeatNumber.m"; sourceTree = "<group>"; };
-		409C28A1218FC872009B668E /* MergeTwoListNode_25.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeTwoListNode_25.h; sourceTree = "<group>"; };
-		409C28A2218FC872009B668E /* MergeTwoListNode_25.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeTwoListNode_25.m; sourceTree = "<group>"; };
-		409C28C621911E0D009B668E /* HasSubTree_26.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HasSubTree_26.h; sourceTree = "<group>"; };
-		409C28C721911E0D009B668E /* HasSubTree_26.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HasSubTree_26.m; sourceTree = "<group>"; };
-		409C28ED21926951009B668E /* MirrorTree_27.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MirrorTree_27.h; sourceTree = "<group>"; };
-		409C28EE21926951009B668E /* MirrorTree_27.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MirrorTree_27.m; sourceTree = "<group>"; };
-		409C28F021926BFB009B668E /* IsSymmetrical_28.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsSymmetrical_28.h; sourceTree = "<group>"; };
-		409C28F121926BFB009B668E /* IsSymmetrical_28.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IsSymmetrical_28.m; sourceTree = "<group>"; };
-		409C28F321927033009B668E /* PrintMatrixClockwise_29.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintMatrixClockwise_29.h; sourceTree = "<group>"; };
-		409C28F421927033009B668E /* PrintMatrixClockwise_29.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintMatrixClockwise_29.m; sourceTree = "<group>"; };
-		40A425322176BEBD008A3D4D /* MatrixHasPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatrixHasPath.h; sourceTree = "<group>"; };
-		40A425332176BEBD008A3D4D /* MatrixHasPath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatrixHasPath.m; sourceTree = "<group>"; };
-		40C24D802151D59F00F3C6ED /* TwoDimensionalArrayFind_04.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoDimensionalArrayFind_04.h; sourceTree = "<group>"; };
-		40C24D812151D59F00F3C6ED /* TwoDimensionalArrayFind_04.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoDimensionalArrayFind_04.m; sourceTree = "<group>"; };
-		40C24D832151D91200F3C6ED /* ReplaceBlank_05.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReplaceBlank_05.h; sourceTree = "<group>"; };
-		40C24D842151D91200F3C6ED /* ReplaceBlank_05.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReplaceBlank_05.m; sourceTree = "<group>"; };
-		40C24D8821547A3B00F3C6ED /* PrintListFromTailToHead_06.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintListFromTailToHead_06.h; sourceTree = "<group>"; };
-		40C24D8921547A3B00F3C6ED /* PrintListFromTailToHead_06.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintListFromTailToHead_06.m; sourceTree = "<group>"; };
+		406C0FEC2199040300216EAA /* PrintMatrixClockwise_29.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintMatrixClockwise_29.h; sourceTree = "<group>"; };
+		406C0FED2199040300216EAA /* HasSubTree_26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HasSubTree_26.h; sourceTree = "<group>"; };
+		406C0FEE2199040300216EAA /* FindKthToTail_22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FindKthToTail_22.m; sourceTree = "<group>"; };
+		406C0FEF2199040300216EAA /* reOrderArray_21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reOrderArray_21.h; sourceTree = "<group>"; };
+		406C0FF02199040300216EAA /* MirrorTree_27.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MirrorTree_27.m; sourceTree = "<group>"; };
+		406C0FF12199040300216EAA /* IsSymmetrical_28.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsSymmetrical_28.m; sourceTree = "<group>"; };
+		406C0FF22199040300216EAA /* EntryNodeOfLoop_23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntryNodeOfLoop_23.h; sourceTree = "<group>"; };
+		406C0FF32199040300216EAA /* ReverseList_24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseList_24.h; sourceTree = "<group>"; };
+		406C0FF42199040300216EAA /* MergeTwoListNode_25.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MergeTwoListNode_25.m; sourceTree = "<group>"; };
+		406C0FF62199040300216EAA /* HasSubTree_26.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HasSubTree_26.m; sourceTree = "<group>"; };
+		406C0FF72199040300216EAA /* PrintMatrixClockwise_29.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintMatrixClockwise_29.m; sourceTree = "<group>"; };
+		406C0FF82199040300216EAA /* reOrderArray_21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = reOrderArray_21.m; sourceTree = "<group>"; };
+		406C0FF92199040300216EAA /* FindKthToTail_22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindKthToTail_22.h; sourceTree = "<group>"; };
+		406C0FFA2199040300216EAA /* EntryNodeOfLoop_23.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntryNodeOfLoop_23.m; sourceTree = "<group>"; };
+		406C0FFB2199040300216EAA /* IsSymmetrical_28.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsSymmetrical_28.h; sourceTree = "<group>"; };
+		406C0FFC2199040300216EAA /* MirrorTree_27.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MirrorTree_27.h; sourceTree = "<group>"; };
+		406C0FFE2199040300216EAA /* MergeTwoListNode_25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeTwoListNode_25.h; sourceTree = "<group>"; };
+		406C0FFF2199040300216EAA /* ReverseList_24.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseList_24.m; sourceTree = "<group>"; };
+		406C10012199040400216EAA /* DeleteNode_18.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeleteNode_18.m; sourceTree = "<group>"; };
+		406C10022199040400216EAA /* RegularExpressionMath_19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpressionMath_19.h; sourceTree = "<group>"; };
+		406C10032199040400216EAA /* MatrixHasPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatrixHasPath.m; sourceTree = "<group>"; };
+		406C10042199040400216EAA /* MinNumberInRotateArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinNumberInRotateArray.h; sourceTree = "<group>"; };
+		406C10052199040400216EAA /* NumberOfOne_15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberOfOne_15.h; sourceTree = "<group>"; };
+		406C10062199040400216EAA /* MovingCount_13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovingCount_13.h; sourceTree = "<group>"; };
+		406C10072199040400216EAA /* power_16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = power_16.h; sourceTree = "<group>"; };
+		406C10082199040400216EAA /* printOneToMaxOfNDigits_17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = printOneToMaxOfNDigits_17.h; sourceTree = "<group>"; };
+		406C10092199040400216EAA /* NumberOfOne_15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberOfOne_15.m; sourceTree = "<group>"; };
+		406C100A2199040400216EAA /* MinNumberInRotateArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinNumberInRotateArray.m; sourceTree = "<group>"; };
+		406C100B2199040400216EAA /* RegularExpressionMath_19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpressionMath_19.m; sourceTree = "<group>"; };
+		406C100C2199040400216EAA /* MatrixHasPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatrixHasPath.h; sourceTree = "<group>"; };
+		406C100D2199040400216EAA /* DeleteNode_18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeleteNode_18.h; sourceTree = "<group>"; };
+		406C100E2199040400216EAA /* MovingCount_13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovingCount_13.m; sourceTree = "<group>"; };
+		406C100F2199040400216EAA /* printOneToMaxOfNDigits_17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = printOneToMaxOfNDigits_17.m; sourceTree = "<group>"; };
+		406C10102199040400216EAA /* power_16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = power_16.m; sourceTree = "<group>"; };
+		406C10132199040400216EAA /* ReplaceBlank_05.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplaceBlank_05.h; sourceTree = "<group>"; };
+		406C10142199040400216EAA /* TwoDimensionalArrayFind_04.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoDimensionalArrayFind_04.m; sourceTree = "<group>"; };
+		406C10152199040400216EAA /* 03-repeatNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "03-repeatNumber.h"; sourceTree = "<group>"; };
+		406C10162199040400216EAA /* ReConstructBinaryTree_07.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReConstructBinaryTree_07.m; sourceTree = "<group>"; };
+		406C10172199040400216EAA /* TwoStackQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoStackQueue.m; sourceTree = "<group>"; };
+		406C10182199040400216EAA /* PrintListFromTailToHead_06.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintListFromTailToHead_06.m; sourceTree = "<group>"; };
+		406C10192199040400216EAA /* Fibonacci.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fibonacci.m; sourceTree = "<group>"; };
+		406C101A2199040400216EAA /* ReplaceBlank_05.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceBlank_05.m; sourceTree = "<group>"; };
+		406C101B2199040400216EAA /* 03-repeatNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "03-repeatNumber.m"; sourceTree = "<group>"; };
+		406C101C2199040400216EAA /* TwoDimensionalArrayFind_04.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoDimensionalArrayFind_04.h; sourceTree = "<group>"; };
+		406C101D2199040400216EAA /* PrintListFromTailToHead_06.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintListFromTailToHead_06.h; sourceTree = "<group>"; };
+		406C101E2199040400216EAA /* ReConstructBinaryTree_07.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReConstructBinaryTree_07.h; sourceTree = "<group>"; };
+		406C101F2199040400216EAA /* TwoStackQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoStackQueue.h; sourceTree = "<group>"; };
+		406C10202199040400216EAA /* Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fibonacci.h; sourceTree = "<group>"; };
+		406C103A219904B600216EAA /* IsNumeric_20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IsNumeric_20.m; sourceTree = "<group>"; };
+		406C103B219904B600216EAA /* IsNumeric_20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IsNumeric_20.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,60 +203,90 @@
 		4064B0DF214F66A900F3D34B /* 算法 */ = {
 			isa = PBXGroup;
 			children = (
-				4064B0E0214F66CF00F3D34B /* 03-repeatNumber.h */,
-				4064B0E1214F66CF00F3D34B /* 03-repeatNumber.m */,
-				40C24D802151D59F00F3C6ED /* TwoDimensionalArrayFind_04.h */,
-				40C24D812151D59F00F3C6ED /* TwoDimensionalArrayFind_04.m */,
-				40C24D832151D91200F3C6ED /* ReplaceBlank_05.h */,
-				40C24D842151D91200F3C6ED /* ReplaceBlank_05.m */,
-				40C24D8821547A3B00F3C6ED /* PrintListFromTailToHead_06.h */,
-				40C24D8921547A3B00F3C6ED /* PrintListFromTailToHead_06.m */,
-				40636FBA2159F18C00DE29C4 /* ReConstructBinaryTree_07.h */,
-				40636FBB2159F18C00DE29C4 /* ReConstructBinaryTree_07.m */,
-				402E4A19216723CB001C6863 /* GetNextTreeLinkNode.h */,
-				402E4A1A216723CB001C6863 /* GetNextTreeLinkNode.m */,
-				4050643F216C312F00162CB3 /* TwoStackQueue.h */,
-				40506440216C312F00162CB3 /* TwoStackQueue.m */,
-				40506442216C34D700162CB3 /* Fibonacci.h */,
-				40506443216C34D700162CB3 /* Fibonacci.m */,
-				40370402216ED85500C4D384 /* MinNumberInRotateArray.h */,
-				40370403216ED85500C4D384 /* MinNumberInRotateArray.m */,
-				40A425322176BEBD008A3D4D /* MatrixHasPath.h */,
-				40A425332176BEBD008A3D4D /* MatrixHasPath.m */,
-				4037F633217D578F00DEE0C5 /* MovingCount_13.h */,
-				4037F634217D579000DEE0C5 /* MovingCount_13.m */,
-				40295096217FF65D00E492BF /* NumberOfOne_15.h */,
-				40295097217FF65D00E492BF /* NumberOfOne_15.m */,
-				40295099217FF85F00E492BF /* power_16.h */,
-				4029509A217FF85F00E492BF /* power_16.m */,
-				4029509C217FFB3600E492BF /* printOneToMaxOfNDigits_17.h */,
-				4029509D217FFB3600E492BF /* printOneToMaxOfNDigits_17.m */,
-				402950C42181459E00E492BF /* DeleteNode_18.h */,
-				402950C52181459E00E492BF /* DeleteNode_18.m */,
-				402950E92183F72700E492BF /* RegularExpressionMath_19.h */,
-				402950EA2183F72700E492BF /* RegularExpressionMath_19.m */,
-				402950EC2183FA7400E492BF /* IsNumeric_20.h */,
-				402950ED2183FA7400E492BF /* IsNumeric_20.m */,
-				401105C821868F2C00B2D04C /* reOrderArray_21.h */,
-				401105C921868F2C00B2D04C /* reOrderArray_21.m */,
-				401105F32187DD5E00B2D04C /* FindKthToTail_22.h */,
-				401105F42187DD5E00B2D04C /* FindKthToTail_22.m */,
-				40637E0821892F56001044C9 /* EntryNodeOfLoop_23.h */,
-				40637E0921892F56001044C9 /* EntryNodeOfLoop_23.m */,
-				40637E6F218A8388001044C9 /* ReverseList_24.h */,
-				40637E70218A8388001044C9 /* ReverseList_24.m */,
-				409C28A1218FC872009B668E /* MergeTwoListNode_25.h */,
-				409C28A2218FC872009B668E /* MergeTwoListNode_25.m */,
-				409C28C621911E0D009B668E /* HasSubTree_26.h */,
-				409C28C721911E0D009B668E /* HasSubTree_26.m */,
-				409C28ED21926951009B668E /* MirrorTree_27.h */,
-				409C28EE21926951009B668E /* MirrorTree_27.m */,
-				409C28F021926BFB009B668E /* IsSymmetrical_28.h */,
-				409C28F121926BFB009B668E /* IsSymmetrical_28.m */,
-				409C28F321927033009B668E /* PrintMatrixClockwise_29.h */,
-				409C28F421927033009B668E /* PrintMatrixClockwise_29.m */,
+				406C10122199040400216EAA /* 1-10 */,
+				406C10002199040400216EAA /* 11-20 */,
+				406C0FEB2199040300216EAA /* 21-30 */,
+				406C10112199040400216EAA /* 31-40 */,
 			);
 			path = "算法";
+			sourceTree = "<group>";
+		};
+		406C0FEB2199040300216EAA /* 21-30 */ = {
+			isa = PBXGroup;
+			children = (
+				406C0FEF2199040300216EAA /* reOrderArray_21.h */,
+				406C0FF82199040300216EAA /* reOrderArray_21.m */,
+				406C0FF92199040300216EAA /* FindKthToTail_22.h */,
+				406C0FEE2199040300216EAA /* FindKthToTail_22.m */,
+				406C0FF22199040300216EAA /* EntryNodeOfLoop_23.h */,
+				406C0FFA2199040300216EAA /* EntryNodeOfLoop_23.m */,
+				406C0FF32199040300216EAA /* ReverseList_24.h */,
+				406C0FFF2199040300216EAA /* ReverseList_24.m */,
+				406C0FFE2199040300216EAA /* MergeTwoListNode_25.h */,
+				406C0FF42199040300216EAA /* MergeTwoListNode_25.m */,
+				406C0FED2199040300216EAA /* HasSubTree_26.h */,
+				406C0FF62199040300216EAA /* HasSubTree_26.m */,
+				406C0FFC2199040300216EAA /* MirrorTree_27.h */,
+				406C0FF02199040300216EAA /* MirrorTree_27.m */,
+				406C0FFB2199040300216EAA /* IsSymmetrical_28.h */,
+				406C0FF12199040300216EAA /* IsSymmetrical_28.m */,
+				406C0FEC2199040300216EAA /* PrintMatrixClockwise_29.h */,
+				406C0FF72199040300216EAA /* PrintMatrixClockwise_29.m */,
+			);
+			path = "21-30";
+			sourceTree = "<group>";
+		};
+		406C10002199040400216EAA /* 11-20 */ = {
+			isa = PBXGroup;
+			children = (
+				406C10062199040400216EAA /* MovingCount_13.h */,
+				406C100E2199040400216EAA /* MovingCount_13.m */,
+				406C10052199040400216EAA /* NumberOfOne_15.h */,
+				406C10092199040400216EAA /* NumberOfOne_15.m */,
+				406C10072199040400216EAA /* power_16.h */,
+				406C10102199040400216EAA /* power_16.m */,
+				406C10082199040400216EAA /* printOneToMaxOfNDigits_17.h */,
+				406C100F2199040400216EAA /* printOneToMaxOfNDigits_17.m */,
+				406C100D2199040400216EAA /* DeleteNode_18.h */,
+				406C10012199040400216EAA /* DeleteNode_18.m */,
+				406C10022199040400216EAA /* RegularExpressionMath_19.h */,
+				406C100B2199040400216EAA /* RegularExpressionMath_19.m */,
+				406C100C2199040400216EAA /* MatrixHasPath.h */,
+				406C10032199040400216EAA /* MatrixHasPath.m */,
+				406C10042199040400216EAA /* MinNumberInRotateArray.h */,
+				406C100A2199040400216EAA /* MinNumberInRotateArray.m */,
+				406C103B219904B600216EAA /* IsNumeric_20.h */,
+				406C103A219904B600216EAA /* IsNumeric_20.m */,
+			);
+			path = "11-20";
+			sourceTree = "<group>";
+		};
+		406C10112199040400216EAA /* 31-40 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "31-40";
+			sourceTree = "<group>";
+		};
+		406C10122199040400216EAA /* 1-10 */ = {
+			isa = PBXGroup;
+			children = (
+				406C10152199040400216EAA /* 03-repeatNumber.h */,
+				406C101B2199040400216EAA /* 03-repeatNumber.m */,
+				406C101C2199040400216EAA /* TwoDimensionalArrayFind_04.h */,
+				406C10142199040400216EAA /* TwoDimensionalArrayFind_04.m */,
+				406C10132199040400216EAA /* ReplaceBlank_05.h */,
+				406C101A2199040400216EAA /* ReplaceBlank_05.m */,
+				406C101D2199040400216EAA /* PrintListFromTailToHead_06.h */,
+				406C10182199040400216EAA /* PrintListFromTailToHead_06.m */,
+				406C101E2199040400216EAA /* ReConstructBinaryTree_07.h */,
+				406C10162199040400216EAA /* ReConstructBinaryTree_07.m */,
+				406C101F2199040400216EAA /* TwoStackQueue.h */,
+				406C10172199040400216EAA /* TwoStackQueue.m */,
+				406C10202199040400216EAA /* Fibonacci.h */,
+				406C10192199040400216EAA /* Fibonacci.m */,
+			);
+			path = "1-10";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,42 +359,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				409C28F521927033009B668E /* PrintMatrixClockwise_29.m in Sources */,
 				40636FC02159F37500DE29C4 /* Stack.m in Sources */,
-				40C24D822151D59F00F3C6ED /* TwoDimensionalArrayFind_04.m in Sources */,
-				409C28A3218FC873009B668E /* MergeTwoListNode_25.m in Sources */,
 				40636FF1215DB5E600DE29C4 /* HashMap.m in Sources */,
+				406C10382199040400216EAA /* ReplaceBlank_05.m in Sources */,
+				406C10242199040400216EAA /* MergeTwoListNode_25.m in Sources */,
+				406C102D2199040400216EAA /* NumberOfOne_15.m in Sources */,
+				406C102E2199040400216EAA /* MinNumberInRotateArray.m in Sources */,
 				40636FC62159F6B800DE29C4 /* LinkedArray.m in Sources */,
-				40506444216C34D700162CB3 /* Fibonacci.m in Sources */,
+				406C10282199040400216EAA /* EntryNodeOfLoop_23.m in Sources */,
+				406C103C219904B600216EAA /* IsNumeric_20.m in Sources */,
+				406C10262199040400216EAA /* PrintMatrixClockwise_29.m in Sources */,
+				406C102F2199040400216EAA /* RegularExpressionMath_19.m in Sources */,
+				406C10312199040400216EAA /* printOneToMaxOfNDigits_17.m in Sources */,
 				4064B0DE214F666600F3D34B /* ViewController.m in Sources */,
+				406C10342199040400216EAA /* ReConstructBinaryTree_07.m in Sources */,
+				406C10372199040400216EAA /* Fibonacci.m in Sources */,
+				406C102A2199040400216EAA /* ReverseList_24.m in Sources */,
+				406C10252199040400216EAA /* HasSubTree_26.m in Sources */,
+				406C102C2199040400216EAA /* MatrixHasPath.m in Sources */,
+				406C102B2199040400216EAA /* DeleteNode_18.m in Sources */,
 				40636FC32159F4D700DE29C4 /* ListNode.m in Sources */,
+				406C10392199040400216EAA /* 03-repeatNumber.m in Sources */,
 				402950F6218469E000E492BF /* NSString+Extension.m in Sources */,
-				401105F52187DD5E00B2D04C /* FindKthToTail_22.m in Sources */,
-				40637E71218A8388001044C9 /* ReverseList_24.m in Sources */,
-				40506441216C312F00162CB3 /* TwoStackQueue.m in Sources */,
-				40A425342176BEBD008A3D4D /* MatrixHasPath.m in Sources */,
-				409C28F221926BFB009B668E /* IsSymmetrical_28.m in Sources */,
-				40C24D8A21547A3B00F3C6ED /* PrintListFromTailToHead_06.m in Sources */,
-				40C24D852151D91200F3C6ED /* ReplaceBlank_05.m in Sources */,
-				4037F635217D579000DEE0C5 /* MovingCount_13.m in Sources */,
-				40636FBC2159F18C00DE29C4 /* ReConstructBinaryTree_07.m in Sources */,
-				4029509B217FF85F00E492BF /* power_16.m in Sources */,
-				40637E0A21892F56001044C9 /* EntryNodeOfLoop_23.m in Sources */,
 				4063D6602136253200A5E3D4 /* main.m in Sources */,
-				409C28C821911E0D009B668E /* HasSubTree_26.m in Sources */,
-				4064B0E2214F66CF00F3D34B /* 03-repeatNumber.m in Sources */,
-				402950C62181459E00E492BF /* DeleteNode_18.m in Sources */,
-				4029509E217FFB3600E492BF /* printOneToMaxOfNDigits_17.m in Sources */,
 				402950F22184038600E492BF /* NSArray+Extension.m in Sources */,
-				402950EE2183FA7400E492BF /* IsNumeric_20.m in Sources */,
-				402950EB2183F72700E492BF /* RegularExpressionMath_19.m in Sources */,
-				402E4A1B216723CB001C6863 /* GetNextTreeLinkNode.m in Sources */,
-				40295098217FF65D00E492BF /* NumberOfOne_15.m in Sources */,
-				401105CA21868F2C00B2D04C /* reOrderArray_21.m in Sources */,
-				40370404216ED85500C4D384 /* MinNumberInRotateArray.m in Sources */,
-				409C28EF21926951009B668E /* MirrorTree_27.m in Sources */,
+				406C10322199040400216EAA /* power_16.m in Sources */,
+				406C10212199040400216EAA /* FindKthToTail_22.m in Sources */,
+				406C10222199040400216EAA /* MirrorTree_27.m in Sources */,
+				406C10362199040400216EAA /* PrintListFromTailToHead_06.m in Sources */,
 				40636FEE215C959100DE29C4 /* BinaryTreeNode.m in Sources */,
+				406C10232199040400216EAA /* IsSymmetrical_28.m in Sources */,
+				406C10352199040400216EAA /* TwoStackQueue.m in Sources */,
 				4063D6522136253100A5E3D4 /* AppDelegate.m in Sources */,
+				406C10332199040400216EAA /* TwoDimensionalArrayFind_04.m in Sources */,
+				406C10272199040400216EAA /* reOrderArray_21.m in Sources */,
+				406C10302199040400216EAA /* MovingCount_13.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
