@@ -16,6 +16,17 @@
 
 @implementation Stack
 
+// 初始化操作
+- (instancetype)initWithNumbers:(NSArray *)numbers {
+    self = [super init];
+    if (self) {
+        for (NSNumber *number in numbers) {
+            [self.stackArray addObject:number];
+        }
+    }
+    return self;
+}
+
 #pragma mark - push
 
 - (void)push:(id)obj {

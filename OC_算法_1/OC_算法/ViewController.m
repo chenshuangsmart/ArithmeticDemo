@@ -32,6 +32,9 @@
 #import "IsSymmetrical_28.h"
 #import "PrintMatrixClockwise_29.h"
 #import "PrintMatrixClockwise_29.h"
+#import "VerifySquenceOfBST_33.h"
+#import "Serializer_37.h"
+#import "MoreThanHalfNumSolution_39.h"
 
 @interface ViewController ()
 
@@ -119,7 +122,16 @@
 //    [self isSymmetrical];
     
     // 29.顺时针打印矩阵
-    [self printMatrixClockwise];
+//    [self printMatrixClockwise];
+    
+    // 33.二叉搜索树的后序遍历序列
+//    [self verifySquenceOfBST];
+    
+    // 37.序列号二叉树
+//    [self serializerBinaryTree];
+    
+    // 39.数组中出现次数超过一半的数字
+    [self moreThanHalfNum];
 }
 
 //- (void)handleSwipeFrom:(UISwipeGestureRecognizer *)recognizer{
@@ -381,6 +393,33 @@
     NSArray *result = [PrintMatrixClockwise_29 printMatrix:numbers];
     NSString *resultStr = [result getAllObjectsDescription];
     NSLog(@"resultStr = %@",resultStr);
+}
+
+// 33.二叉搜索树的后序遍历序列
+- (void)verifySquenceOfBST {
+    NSArray *numbers = @[@1,@2,@3];
+    bool result = [VerifySquenceOfBST_33 verifySquenceOfBST:numbers];
+    NSLog(@"result = %d",result);
+}
+
+// 37.序列号二叉树
+- (void)serializerBinaryTree {
+    NSString *str = [Serializer_37 serialize];
+    NSLog(@"result = %@",str);
+    
+    // 反序列化
+    TreeNode *node = [Serializer_37 deserialize:str];
+    NSLog(@"node = %@",node);
+}
+
+// 39.数组中出现次数超过一半的数字
+- (void)moreThanHalfNum {
+    NSMutableArray *numM = [NSMutableArray array];
+    for (int i = 0; i < 20; i++) {
+        [numM addObject:[NSNumber numberWithInt:arc4random_uniform(2)]];
+    }
+    int number = [MoreThanHalfNumSolution_39 MoreThanHalfNum_Solution:numM];
+    NSLog(@"number = %d",number);
 }
 
 @end

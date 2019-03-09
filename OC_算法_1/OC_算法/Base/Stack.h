@@ -19,6 +19,9 @@ typedef void(^StackBlock)(id obj);
  */
 @interface Stack : NSObject
 
+// 初始化操作
+- (instancetype)initWithNumbers:(NSArray *)numbers;
+
 /** 入栈 @param obj 指定入栈对象 */
 - (void)push:(id)obj;
 

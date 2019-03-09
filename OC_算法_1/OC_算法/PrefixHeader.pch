@@ -15,5 +15,6 @@
 #import "LinkedArray.h"
 #import "Stack.h"
 #import "BinaryTreeNode.h"
+#import "TreeNode.h"
 
 #endif /* PrefixHeader_pch */
